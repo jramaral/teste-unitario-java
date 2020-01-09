@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="760aa9cd-e1f6-4a5c-945b-d7ea1234ec60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CadastroPessoas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CadastroVazioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PessoaSemNomeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CadastroPessoaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/teste4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/teste4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +54,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="JUnit.teste4.naoDeveDividirDoisNumerosTest">
-    <configuration name="teste3.verificarStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CadastroPessoaTest">
+    <configuration name="CadastroPessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exemplo-teste" />
       <extension name="coverage">
         <pattern>
@@ -58,14 +69,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.teste3" />
-      <option name="METHOD_NAME" value="verificarStringTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CadastroPessoaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroPessoaTest.deveAdicionarUmaPessoa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exemplo-teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CadastroPessoaTest" />
+      <option name="METHOD_NAME" value="deveAdicionarUmaPessoa" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="teste4.deveDividirDoisNumerosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CadastroPessoaTest.deveCriarCadastroDePessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exemplo-teste" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.teste4" />
-      <option name="METHOD_NAME" value="deveDividirDoisNumerosTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CadastroPessoaTest" />
+      <option name="METHOD_NAME" value="deveCriarCadastroDePessoaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="teste4.deveSomarDoisNumerosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CadastroPessoaTest.naoDeveCadastrarUmaPessoaComNomeVazioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exemplo-teste" />
       <extension name="coverage">
         <pattern>
@@ -90,24 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.teste4" />
-      <option name="METHOD_NAME" value="deveSomarDoisNumerosTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="teste4.naoDeveDividirDoisNumerosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exemplo-teste" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.teste4" />
-      <option name="METHOD_NAME" value="naoDeveDividirDoisNumerosTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CadastroPessoaTest" />
+      <option name="METHOD_NAME" value="naoDeveCadastrarUmaPessoaComNomeVazioTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.teste4.naoDeveDividirDoisNumerosTest" />
-        <item itemvalue="JUnit.teste4.deveDividirDoisNumerosTest" />
+        <item itemvalue="JUnit.CadastroPessoaTest" />
+        <item itemvalue="JUnit.CadastroPessoaTest.naoDeveCadastrarUmaPessoaComNomeVazioTest" />
+        <item itemvalue="JUnit.CadastroPessoaTest.deveAdicionarUmaPessoa" />
+        <item itemvalue="JUnit.CadastroPessoaTest.deveCriarCadastroDePessoaTest" />
         <item itemvalue="JUnit.teste4.naoDeveSomarNumerosNegativosTest" />
-        <item itemvalue="JUnit.teste4.deveSomarDoisNumerosTest" />
-        <item itemvalue="JUnit.teste3.verificarStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578597425789</updated>
-      <workItem from="1578597429351" duration="5298000" />
+      <workItem from="1578597429351" duration="9151000" />
     </task>
     <task id="LOCAL-00001" summary="outros teste">
       <created>1578601822567</created>
@@ -177,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578603514770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="outros teste">
+      <created>1578603733680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578603733680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,10 +205,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="outros teste" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="900" width="695" height="728" key="CommitChangelistDialog2" timestamp="1578603514666">
+    <state x="491" y="983" width="376" height="556" key="#com.intellij.ide.util.MemberChooser" timestamp="1578605827456">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
-    <state x="331" y="900" width="695" height="728" key="CommitChangelistDialog2/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578603514666" />
+    <state x="491" y="983" width="376" height="556" key="#com.intellij.ide.util.MemberChooser/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578605827456" />
+    <state x="331" y="900" width="695" height="728" key="CommitChangelistDialog2" timestamp="1578603733607">
+      <screen x="0" y="900" width="1366" height="768" />
+    </state>
+    <state x="331" y="900" width="695" height="728" key="CommitChangelistDialog2/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578603733607" />
     <state x="583" y="208" width="426" height="478" key="FileChooserDialogImpl" timestamp="1578600616246">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -200,34 +221,34 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="637" y="369" key="Github.CreateGistDialog/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578598103212" />
-    <state width="1324" height="230" key="GridCell.Tab.0.bottom" timestamp="1578603421118">
+    <state width="1324" height="224" key="GridCell.Tab.0.bottom" timestamp="1578607869821">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
     <state width="1558" height="230" key="GridCell.Tab.0.bottom/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578601045103" />
-    <state width="1324" height="230" key="GridCell.Tab.0.bottom/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578603421118" />
-    <state width="1324" height="230" key="GridCell.Tab.0.center" timestamp="1578603421118">
+    <state width="1324" height="224" key="GridCell.Tab.0.bottom/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578607869821" />
+    <state width="1324" height="224" key="GridCell.Tab.0.center" timestamp="1578607869821">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
     <state width="1558" height="230" key="GridCell.Tab.0.center/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578601045103" />
-    <state width="1324" height="230" key="GridCell.Tab.0.center/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578603421118" />
-    <state width="1324" height="230" key="GridCell.Tab.0.left" timestamp="1578603421118">
+    <state width="1324" height="224" key="GridCell.Tab.0.center/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578607869821" />
+    <state width="1324" height="224" key="GridCell.Tab.0.left" timestamp="1578607869821">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
     <state width="1558" height="230" key="GridCell.Tab.0.left/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578601045102" />
-    <state width="1324" height="230" key="GridCell.Tab.0.left/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578603421118" />
-    <state width="1324" height="230" key="GridCell.Tab.0.right" timestamp="1578603421118">
+    <state width="1324" height="224" key="GridCell.Tab.0.left/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578607869821" />
+    <state width="1324" height="224" key="GridCell.Tab.0.right" timestamp="1578607869821">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
     <state width="1558" height="230" key="GridCell.Tab.0.right/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578601045103" />
-    <state width="1324" height="230" key="GridCell.Tab.0.right/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578603421118" />
+    <state width="1324" height="224" key="GridCell.Tab.0.right/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578607869821" />
     <state x="319" y="85" key="SettingsEditor" timestamp="1578598307942">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="319" y="85" key="SettingsEditor/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578598307942" />
-    <state x="337" y="1059" width="802" height="522" key="Vcs.Push.Dialog.v2" timestamp="1578603630197">
+    <state x="337" y="1059" width="802" height="522" key="Vcs.Push.Dialog.v2" timestamp="1578603747321">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
     <state x="395" y="186" width="802" height="522" key="Vcs.Push.Dialog.v2/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578598837329" />
-    <state x="337" y="1059" key="Vcs.Push.Dialog.v2/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578603630197" />
+    <state x="337" y="1059" width="802" height="522" key="Vcs.Push.Dialog.v2/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578603747321" />
   </component>
 </project>

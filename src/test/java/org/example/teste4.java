@@ -1,15 +1,21 @@
 package org.example;
 
 import org.assertj.core.api.Assertions;
+import org.junit.Before;
 import org.junit.Test;
 
 public class teste4 {
+    Calculadora calculadora;
+
+    int num1 =10, num2=5;
+
+    @Before
+    public void setUp(){
+        calculadora = new Calculadora();
+    }
 
     @Test
     public void deveSomarDoisNumerosTest(){
-        //cenario
-        Calculadora calculadora = new Calculadora();
-        int num1 =10, num2=5;
 
         //execução
         int resultado = calculadora.somar(num1,num2);
@@ -19,45 +25,35 @@ public class teste4 {
         Assertions.assertThat(resultado).isEqualTo(15);
     }
 
-    @Test(expected = RuntimeException.class)
-    public void naoDeveSomarNumerosNegativosTest(){
-        //cenario
-        Calculadora calculadora = new Calculadora();
-        int num1 =-10, num2=5;
-
-        //execução
-        int resultado = calculadora.somar(num1,num2);
-
-        //verificação
-
-    }
 
     @Test
     public void deveDividirDoisNumerosTest(){
-        //cenario
-        Calculadora calculadora = new Calculadora();
-        int num1 =5, num2=5;
 
         //execução
         int resultado = calculadora.dividir(num1,num2);
 
         //verificação
 
-        Assertions.assertThat(resultado).isEqualTo(1);
+        Assertions.assertThat(resultado).isEqualTo(2);
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void naoDeveDividirPorZeroTest(){
+
+        num1=10;
+        num2=0;
+        //execução
+        int resultado = calculadora.dividir(num1,num2);
+
     }
     @Test(expected = RuntimeException.class)
-    public void naoDeveDividirDoisNumerosTest(){
-        //cenario
-        Calculadora calculadora = new Calculadora();
-        int num1 =5, num2=0;
-
+    public void naoDeveSomarNumerosNegativosTest(){
+        num1=-10;
+        num2=0;
         //execução
-        int resultado = calculadora.dividir(num1,num2);
-
-        //verificação
+        int resultado = calculadora.somar(num1,num2);
 
     }
-
 
 }
 
