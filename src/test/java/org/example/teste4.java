@@ -30,7 +30,6 @@ public class teste4 {
 
         //verificação
 
-        Assertions.assertThat(resultado).isEqualTo(15);
     }
 
     @Test
@@ -57,7 +56,6 @@ public class teste4 {
 
         //verificação
 
-        Assertions.assertThat(resultado).isEqualTo(0);
     }
 
 
