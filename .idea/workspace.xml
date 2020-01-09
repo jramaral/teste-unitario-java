@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="760aa9cd-e1f6-4a5c-945b-d7ea1234ec60" name="Default Changelist" comment="" />
+    <list default="true" id="760aa9cd-e1f6-4a5c-945b-d7ea1234ec60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/teste3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/teste2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/teste2.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WAffpYMooacVbMiMtpulz8pqyp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -31,11 +41,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="JUnit.teste2.somarDoisNumeroTest">
+  <component name="RunManager" selected="JUnit.teste3.verificarStringTest">
     <configuration name="teste1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exemplo-teste" />
       <extension name="coverage">
@@ -98,10 +115,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="teste3.verificarStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exemplo-teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.teste3" />
+      <option name="METHOD_NAME" value="verificarStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.teste2.somarDoisNumeroTest" />
+        <item itemvalue="JUnit.teste3.verificarStringTest" />
         <item itemvalue="JUnit.teste1.somarTresNumerosTest" />
+        <item itemvalue="JUnit.teste2.somarDoisNumeroTest" />
         <item itemvalue="JUnit.teste2" />
         <item itemvalue="JUnit.teste1" />
       </list>
@@ -129,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578597425789</updated>
-      <workItem from="1578597429351" duration="880000" />
+      <workItem from="1578597429351" duration="3377000" />
     </task>
     <servers />
   </component>
@@ -137,29 +171,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="583" y="208" width="426" height="478" key="FileChooserDialogImpl" timestamp="1578600616246">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="583" y="208" width="426" height="478" key="FileChooserDialogImpl/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578600616246" />
     <state x="637" y="369" key="Github.CreateGistDialog" timestamp="1578598103212">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="637" y="369" key="Github.CreateGistDialog/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578598103212" />
-    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1578597755775">
+    <state width="1324" height="230" key="GridCell.Tab.0.bottom" timestamp="1578601747087">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578597755775" />
-    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1578597755775">
+    <state width="1558" height="230" key="GridCell.Tab.0.bottom/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578601045103" />
+    <state width="1324" height="230" key="GridCell.Tab.0.bottom/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578601747087" />
+    <state width="1324" height="230" key="GridCell.Tab.0.center" timestamp="1578601747087">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.center/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578597755775" />
-    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1578597755775">
+    <state width="1558" height="230" key="GridCell.Tab.0.center/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578601045103" />
+    <state width="1324" height="230" key="GridCell.Tab.0.center/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578601747087" />
+    <state width="1324" height="230" key="GridCell.Tab.0.left" timestamp="1578601747086">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.left/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578597755775" />
-    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1578597755775">
+    <state width="1558" height="230" key="GridCell.Tab.0.left/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578601045102" />
+    <state width="1324" height="230" key="GridCell.Tab.0.left/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578601747086" />
+    <state width="1324" height="230" key="GridCell.Tab.0.right" timestamp="1578601747087">
       <screen x="0" y="900" width="1366" height="768" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.right/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578597755775" />
+    <state width="1558" height="230" key="GridCell.Tab.0.right/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578601045103" />
+    <state width="1324" height="230" key="GridCell.Tab.0.right/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578601747087" />
     <state x="319" y="85" key="SettingsEditor" timestamp="1578598307942">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="319" y="85" key="SettingsEditor/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578598307942" />
+    <state x="395" y="186" width="802" height="522" key="Vcs.Push.Dialog.v2" timestamp="1578598837329">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="395" y="186" width="802" height="522" key="Vcs.Push.Dialog.v2/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578598837329" />
   </component>
 </project>
