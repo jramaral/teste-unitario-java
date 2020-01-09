@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="760aa9cd-e1f6-4a5c-945b-d7ea1234ec60" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WAffpYMooacVbMiMtpulz8pqyp" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="JUnit.teste2.somarDoisNumeroTest">
+    <configuration name="teste1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exemplo-teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.teste1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teste1.somarTresNumerosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exemplo-teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.teste1" />
+      <option name="METHOD_NAME" value="somarTresNumerosTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teste2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exemplo-teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.teste2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teste2.somarDoisNumeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exemplo-teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.teste2" />
+      <option name="METHOD_NAME" value="somarDoisNumeroTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.teste2.somarDoisNumeroTest" />
+        <item itemvalue="JUnit.teste1.somarTresNumerosTest" />
+        <item itemvalue="JUnit.teste2" />
+        <item itemvalue="JUnit.teste1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="760aa9cd-e1f6-4a5c-945b-d7ea1234ec60" name="Default Changelist" comment="" />
+      <created>1578597425789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578597425789</updated>
+      <workItem from="1578597429351" duration="880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="637" y="369" key="Github.CreateGistDialog" timestamp="1578598103212">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="637" y="369" key="Github.CreateGistDialog/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578598103212" />
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1578597755775">
+      <screen x="0" y="900" width="1366" height="768" />
+    </state>
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578597755775" />
+    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1578597755775">
+      <screen x="0" y="900" width="1366" height="768" />
+    </state>
+    <state width="1324" height="174" key="GridCell.Tab.0.center/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578597755775" />
+    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1578597755775">
+      <screen x="0" y="900" width="1366" height="768" />
+    </state>
+    <state width="1324" height="174" key="GridCell.Tab.0.left/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578597755775" />
+    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1578597755775">
+      <screen x="0" y="900" width="1366" height="768" />
+    </state>
+    <state width="1324" height="174" key="GridCell.Tab.0.right/0.900.1366.768/0.0.1600.900@0.900.1366.768" timestamp="1578597755775" />
+    <state x="319" y="85" key="SettingsEditor" timestamp="1578598307942">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="319" y="85" key="SettingsEditor/0.900.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1578598307942" />
+  </component>
+</project>
